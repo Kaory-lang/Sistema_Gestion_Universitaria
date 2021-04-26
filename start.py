@@ -9,7 +9,7 @@ from functions import *
 #Database conecction
 mydb = mysql.connector.connect(host='localhost', user='root', password='root', database='universidad')
 cursor = mydb.cursor(buffered=True)
-int_checker(2)##quitar
+
 #Inicio de sesion
 print('Inicio de sesión al sistema de Gestión Universitaria\n')
 
